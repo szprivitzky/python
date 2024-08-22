@@ -19,8 +19,28 @@ def haromszog(meret,szin2):
         right(120)
         forward(meret)
         right(120)
-
         z=z+1
+
+def csillag(meret,szin):
+    color(szin)
+    g=0
+    while(g<3):
+        forward(meret)
+        right(145)
+        g=g+1
+    forward(meret)
+    right(142)
+    forward(meret)
+    right(142)
+
+
+
+
+
+
+
+
+
 
 
 
